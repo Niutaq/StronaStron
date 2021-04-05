@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+
+<html lang ="pl">
+
+	<head>
+		<meta charset = "utf-8">
+		<title>Górskie wycieczki</title>
+		<meta name="description" content="Niesamowite widoki krajobrazów górskich tylko tutaj!"/> 
+		<meta name="keywords" content="widoki, góry, krajobraz"/> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="icon" href="g.png" type="image/png"  sizes="16x16"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<style>
+	
+	img {
+		border-radius: 100%;
+	}
+
+	@font-face {  
+    	font-family: AlphaK;
+		src: url(fonts/alphakind.ttf);
+	}
+
+	#photo {
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		font-size: 70px;
+		font-family: AlphaK;
+		color: rgb(54, 49, 46);
+		text-shadow: 2px 2px #c88cd3;
+	
+	}
+	
+	
+	.mode {	
+		font-family: AlphaK; 
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		font-size: 100px;
+		color: rgb(255, 255, 255);
+		text-shadow: 3px 3px #00a2ff;
+	}
+	
+	body {
+		height: 5000px;
+		background: linear-gradient(#79b26a 40%, #e98bb2 100% );
+	}	
+	
+	
+	div {
+		width: 1000px;
+		height: 225px;
+		position: relative;
+		animation-name: anim1;
+		animation-duration: 10s;
+	
+	}
+	
+	
+	@keyframes anim1 {
+		0% {background-color:#79b26a ; left:0px; top:0px;}
+		25% {background-color:#79b26a; left:200px; top:0px;}
+		50% {background-color:#79b26a ; left:-200px; top:0px;}
+		100% {background-color:#79b26a ; left:0px; top:0px;}
+	}
+
+
+
+	a {
+  		background-color: #79b26a;
+  		transition: background-color .5s;
+	}
+
+	a:hover {
+ 		background-color: rgb(167, 104, 151);
+	}
+	
+
+
+
+	#text {
+  		border: 2px solid rgb(212, 152, 40);
+  		padding: 10px;
+  		border-radius: 50px 20px;
+	}
+	
+	</style>
+</head>
+
+
+<body>
+	<center>
+	
+	<img width="1000" height="500" src="napiS.gif"/>
+	
+	
+	<div id="photo">
+		<a href ="https://pl.wikipedia.org/wiki/Garmisch-Partenkirchen" target="_blank"  title="Obczaj --> Garmisch-Partenkirchen">
+	Wizyta w Garmisch-Partenkirchen </a>
+	</div>
+	<div></div>
+
+	<div id="photo">
+		<a href ="https://www.w3schools.com" target="_blank"  title="Obczaj --> w3schools">
+			Strona powstała dzięki fajnej stronie :) </a>
+	</div>
+	
+	<div></div>
+
+	
+	<h3 class ="mode"> Widok na góry</h3>
+	
+		<img src="wood.jpg" width="1000" height="1000 class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+	
+	<h4 class ="mode"> Okolica </h4>
+
+		<img src="krajobraz.jpg" width="1000" height="1000 class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+
+	<h5 class ="mode"> Krajobraz górski </h5>
+
+		<img src="okolica.jpg" width="1000" height="1000 class="w3-border" alt="Mountains" style="padding:4px;width:50%">
+
+
+		</center>
+	</body>
+</html> 
